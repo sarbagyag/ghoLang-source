@@ -6,7 +6,7 @@ Source goes through a single-pass compiler into bytecode, which a stack-based VM
 
 ## Status
 
-Done through the **Closures** chapter (25).
+Done through the **Garbage Collection** chapter (26).
 
 | Feature | Status |
 |---|---|
@@ -18,8 +18,7 @@ Done through the **Closures** chapter (25).
 | Control flow: `if`, `while`, `for` | done |
 | Functions, calls, `return`, native functions | done |
 | Closures and upvalues | done |
-| Garbage collection | not yet |
-| Classes, methods, inheritance | not yet |
+| Garbage collection (mark-sweep) | done |
 
 ## Build
 
@@ -69,6 +68,13 @@ print clock(); // built-in native function
 
 They make output very noisy. Comment them out in `src/common.h` for normal runs.
 
+Two more flags, off by default, are for the garbage collector:
+
+```c
+// #define DEBUG_STRESS_GC   // collect on every allocation (finds missing GC roots)
+// #define DEBUG_LOG_GC      // log allocation, marking, blackening and freeing
+```
+
 ## Project layout
 
 ```
@@ -80,8 +86,8 @@ src/
 ├── vm.*         stack-based interpreter loop, call frames, upvalues
 ├── value.*      ghoLang value representation and dynamic arrays
 ├── object.*     heap objects: strings, functions, closures, upvalues, natives
-├── table.*      hash table (globals, string interning)
-├── memory.*     allocation helpers
+├── table.*      hash table (globals, string interning; weak string table)
+├── memory.*     allocation helpers and the mark-sweep garbage collector
 └── debug.*      disassembler
 ```
 

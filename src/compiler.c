@@ -3,6 +3,7 @@
 #include <string.h>
 
 #include "common.h"
+#include "memory.h"
 #include "compiler.h"
 #include "object.h"
 #include "scanner.h"
@@ -1025,6 +1026,16 @@ static void consume(TokenType type, const char *message)
         return;
     }
     errorAtCurrent(message);
+}
+
+void markCompilerRoots()
+{
+    Compiler *compiler = current;
+    while (compiler != NULL)
+    {
+        markObject((Obj *)compiler->function);
+        compiler = compiler->enclosing;
+    }
 }
 
 // compile() entry point
