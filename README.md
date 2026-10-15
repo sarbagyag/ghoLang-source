@@ -1,6 +1,6 @@
-# clox
+# ghoLang
 
-A bytecode virtual machine for the Lox language, written in C99 by following [*Crafting Interpreters*](https://craftinginterpreters.com/) by Robert Nystrom (Part III, "A Bytecode Virtual Machine").
+ghoLang is a small scripting language with a bytecode virtual machine written in C99. It is based on Lox from [*Crafting Interpreters*](https://craftinginterpreters.com/) by Robert Nystrom (Part III, "A Bytecode Virtual Machine"). The interpreter binary is still named `clox`.
 
 Source goes through a single-pass compiler into bytecode, which a stack-based VM then executes.
 
@@ -34,14 +34,14 @@ make clean    # removes the binary
 
 ```sh
 ./clox              # start the REPL
-./clox script.lox   # run a file
+./clox path/to/script   # run a file
 ```
 
 Exit codes: `64` bad usage, `65` compile error, `70` runtime error, `74` I/O error.
 
 ### Example
 
-```lox
+```
 fun makeCounter() {
   var i = 0;
   fun count() {
@@ -78,7 +78,7 @@ src/
 ├── compiler.*   Pratt parser + bytecode emitter
 ├── chunk.*      bytecode container and opcodes
 ├── vm.*         stack-based interpreter loop, call frames, upvalues
-├── value.*      Lox value representation and dynamic arrays
+├── value.*      ghoLang value representation and dynamic arrays
 ├── object.*     heap objects: strings, functions, closures, upvalues, natives
 ├── table.*      hash table (globals, string interning)
 ├── memory.*     allocation helpers
@@ -87,4 +87,4 @@ src/
 
 ## Credits
 
-Based on the book *Crafting Interpreters* by Robert Nystrom, which is free to read online at [craftinginterpreters.com](https://craftinginterpreters.com/).
+ghoLang is derived from Lox, the language in the book *Crafting Interpreters* by Robert Nystrom, which is free to read online at [craftinginterpreters.com](https://craftinginterpreters.com/).
