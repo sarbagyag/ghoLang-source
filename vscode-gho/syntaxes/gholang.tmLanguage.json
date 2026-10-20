@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "ghoLang",
+  "scopeName": "source.gho",
+  "patterns": [
+    { "include": "#comment" },
+    { "include": "#string" },
+    { "include": "#function-declaration" },
+    { "include": "#keyword" },
+    { "include": "#constant" },
+    { "include": "#builtin" },
+    { "include": "#number" },
+    { "include": "#function-call" },
+    { "include": "#operator" }
+  ],
+  "repository": {
+    "comment": {
+      "name": "comment.line.double-slash.gho",
+      "match": "//.*$"
+    },
+    "string": {
+      "name": "string.quoted.double.gho",
+      "begin": "\"",
+      "end": "\"",
+      "beginCaptures": { "0": { "name": "punctuation.definition.string.begin.gho" } },
+      "endCaptures": { "0": { "name": "punctuation.definition.string.end.gho" } }
+    },
+    "function-declaration": {
+      "match": "\\b(fun)\\s+([A-Za-z_][A-Za-z0-9_]*)",
+      "captures": {
+        "1": { "name": "storage.type.function.gho" },
+        "2": { "name": "entity.name.function.gho" }
+      }
+    },
+    "keyword": {
+      "patterns": [
+        { "name": "keyword.control.gho", "match": "\\b(if|else|while|for|return)\\b" },
+        { "name": "keyword.operator.logical.gho", "match": "\\b(and|or)\\b" },
+        { "name": "storage.type.gho", "match": "\\b(var|fun)\\b" },
+        { "name": "keyword.other.print.gho", "match": "\\bprint\\b" }
+      ]
+    },
+    "constant": {
+      "name": "constant.language.gho",
+      "match": "\\b(true|false|nil)\\b"
+    },
+    "builtin": {
+      "name": "support.function.builtin.gho",
+      "match": "\\b(clock)\\b(?=\\s*\\()"
+    },
+    "number": {
+      "name": "constant.numeric.gho",
+      "match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+    },
+    "function-call": {
+      "name": "entity.name.function.call.gho",
+      "match": "\\b[A-Za-z_][A-Za-z0-9_]*(?=\\s*\\()"
+    },
+    "operator": {
+      "name": "keyword.operator.gho",
+      "match": "==|!=|<=|>=|[=<>!+\\-*/]"
+    }
+  }
+}

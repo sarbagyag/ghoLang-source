@@ -1,6 +1,6 @@
 # ghoLang
 
-ghoLang is a small scripting language with a bytecode virtual machine written in C99. It is based on Lox from [*Crafting Interpreters*](https://craftinginterpreters.com/) by Robert Nystrom (Part III, "A Bytecode Virtual Machine"). The interpreter binary is still named `clox`.
+ghoLang is a small scripting language with a bytecode virtual machine written in C99. It is based on Lox from [*Crafting Interpreters*](https://craftinginterpreters.com/) by Robert Nystrom (Part III, "A Bytecode Virtual Machine").
 
 Source goes through a single-pass compiler into bytecode, which a stack-based VM then executes.
 
@@ -25,15 +25,15 @@ Done through the **Garbage Collection** chapter (26).
 You need a C compiler (the Makefile uses `clang`) and `make`.
 
 ```sh
-make          # builds ./clox
+make          # builds ./gho
 make clean    # removes the binary
 ```
 
 ## Usage
 
 ```sh
-./clox              # start the REPL
-./clox path/to/script   # run a file
+./gho              # start the REPL
+./gho path/to/script.gho   # run a file
 ```
 
 Exit codes: `64` bad usage, `65` compile error, `70` runtime error, `74` I/O error.
@@ -56,6 +56,16 @@ counter(); // 2
 
 print clock(); // built-in native function
 ```
+
+## VS Code extension
+
+Syntax highlighting, comment toggling and snippets for `.gho` files live in `vscode-gho/`. From the repo root:
+
+```sh
+ln -s "$(pwd)/vscode-gho" ~/.vscode/extensions/gholang
+```
+
+Then reload VS Code (Developer: Reload Window). To build a `.vsix` instead, run `npx @vscode/vsce package` inside `vscode-gho/` and install it with `code --install-extension gholang-0.1.0.vsix`.
 
 ## Debugging
 
@@ -89,6 +99,7 @@ src/
 ├── table.*      hash table (globals, string interning; weak string table)
 ├── memory.*     allocation helpers and the mark-sweep garbage collector
 └── debug.*      disassembler
+vscode-gho/      VS Code extension for .gho files
 ```
 
 ## Credits

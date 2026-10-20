@@ -1,0 +1,3169 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 5,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s1\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s1",
+        "dataAttributes": {},
+        "sourceFile": "/Users/sarbagya/Desktop/clox/brag-output/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s1\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s2\"> is a timeline element that contains nested <div id=\"glow\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s2",
+        "dataAttributes": {},
+        "sourceFile": "/Users/sarbagya/Desktop/clox/brag-output/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s2\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s3\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s3",
+        "dataAttributes": {},
+        "sourceFile": "/Users/sarbagya/Desktop/clox/brag-output/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s3\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s4\"> is a timeline element that contains nested <div id=\"tag4\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s4",
+        "dataAttributes": {},
+        "sourceFile": "/Users/sarbagya/Desktop/clox/brag-output/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s4\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"s5\"> is a timeline element that contains nested <div id=\"glow5\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s5",
+        "dataAttributes": {},
+        "sourceFile": "/Users/sarbagya/Desktop/clox/brag-output/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"s5\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 13,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-13\" is 0.18s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.18s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-14\" is 0.11s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.11s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-15\" is 0.19s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.19s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-16\" is 0.11s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.11s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-17\" is 0.19s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.19s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-28\" is 0.10s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.10s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-29\" is 0.11s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.11s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-30\" is 0.11s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.11s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-31\" is 0.11s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.11s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-32\" is 0.10s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.10s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-33\" is 0.19s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.19s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-34\" is 0.18s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.18s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"sfx-35\" is 1.48s but its slot (data-duration) is 2.50s — the slot is shortened to the media length when rendered. Set data-duration to ~1.48s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-start": "0",
+          "data-duration": "23.2"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 76,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 4.277,
+        "selector": "div.l.l1",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 170,
+          "top": 296,
+          "right": 1053.2,
+          "bottom": 418,
+          "width": 883.2,
+          "height": 122
+        },
+        "containerSelector": "#name2",
+        "text": "Nobody asked for",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 170,
+          "y": 296,
+          "width": 883.2,
+          "height": 122
+        },
+        "firstSeen": 4.277,
+        "lastSeen": 4.407,
+        "occurrences": 2,
+        "heldMs": 129.9999999999999,
+        "times": [
+          4.277,
+          4.407
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 4.277,
+        "selector": "div.l.l2",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 170,
+          "top": 411,
+          "right": 1770.81,
+          "bottom": 533,
+          "width": 1600.81,
+          "height": 122
+        },
+        "containerSelector": "#name2",
+        "text": "another programming language.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 170,
+          "y": 411,
+          "width": 1600.81,
+          "height": 122
+        },
+        "firstSeen": 4.277,
+        "lastSeen": 4.407,
+        "occurrences": 2,
+        "heldMs": 129.9999999999999,
+        "times": [
+          4.277,
+          4.407
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 9.022,
+        "selector": "div.body",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1122,
+          "top": 206,
+          "right": 1848,
+          "bottom": 818,
+          "width": 726,
+          "height": 612
+        },
+        "containerSelector": "#term",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1120,
+          "top": 150,
+          "right": 1850,
+          "bottom": 790,
+          "width": 730,
+          "height": 640
+        },
+        "overflow": {
+          "bottom": 28
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1122,
+          "y": 206,
+          "width": 726,
+          "height": 612
+        },
+        "firstSeen": 9.022,
+        "lastSeen": 14.178,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          9.022,
+          11.6,
+          14.178
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 14.178,
+        "selector": "#s3 > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 90,
+          "top": 68,
+          "right": 234,
+          "bottom": 108,
+          "width": 144,
+          "height": 40
+        },
+        "containerSelector": "#tag4",
+        "text": "Closures",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 90,
+          "y": 68,
+          "width": 144,
+          "height": 40
+        },
+        "firstSeen": 14.127,
+        "lastSeen": 14.387,
+        "occurrences": 4,
+        "heldMs": 259.9999999999998,
+        "times": [
+          14.127,
+          14.178,
+          14.257,
+          14.387
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#s3 > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 90,
+          "top": 68,
+          "right": 234,
+          "bottom": 108,
+          "width": 144,
+          "height": 40
+        },
+        "containerSelector": "#s4",
+        "text": "Closures",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 90,
+          "y": 68,
+          "width": 144,
+          "height": 40
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#code > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 170,
+          "top": 162.5,
+          "right": 342.81,
+          "bottom": 193.5,
+          "width": 172.81,
+          "height": 31
+        },
+        "containerSelector": "#trace",
+        "text": "closures.zb",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 170,
+          "y": 162.5,
+          "width": 172.81,
+          "height": 31
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 102,
+          "top": 234,
+          "right": 120.61,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "f",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 102,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 120.61,
+          "top": 234,
+          "right": 139.22,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 120.61,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 139.22,
+          "top": 234,
+          "right": 157.83,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 139.22,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(5)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 176.44,
+          "top": 234,
+          "right": 195.05,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "m",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 176.44,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(6)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 195.05,
+          "top": 234,
+          "right": 213.66,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "a",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 195.05,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(7)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 213.66,
+          "top": 234,
+          "right": 232.27,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "k",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 213.66,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(8)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 232.27,
+          "top": 234,
+          "right": 250.88,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "e",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 232.27,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(9)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 250.88,
+          "top": 234,
+          "right": 269.48,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "C",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 250.88,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(10)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 269.48,
+          "top": 234,
+          "right": 288.09,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "o",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 269.48,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(11)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 288.09,
+          "top": 234,
+          "right": 306.7,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 288.09,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(12)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 306.7,
+          "top": 234,
+          "right": 325.31,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 306.7,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(13)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 325.31,
+          "top": 234,
+          "right": 343.92,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "t",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 325.31,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(14)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 343.92,
+          "top": 234,
+          "right": 362.53,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "e",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 343.92,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(15)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 362.53,
+          "top": 234,
+          "right": 381.14,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "r",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 362.53,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(16)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 381.14,
+          "top": 234,
+          "right": 399.75,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "(",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 381.14,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(17)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 399.75,
+          "top": 234,
+          "right": 418.36,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": ")",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 399.75,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(19)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 436.97,
+          "top": 234,
+          "right": 455.58,
+          "bottom": 275,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "{",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 436.97,
+          "y": 234,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(23)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 139.22,
+          "top": 280.5,
+          "right": 157.83,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "v",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 139.22,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(24)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 157.83,
+          "top": 280.5,
+          "right": 176.44,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "a",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 157.83,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(25)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 176.44,
+          "top": 280.5,
+          "right": 195.05,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "r",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 176.44,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(27)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 213.66,
+          "top": 280.5,
+          "right": 232.27,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "c",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 213.66,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(28)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 232.27,
+          "top": 280.5,
+          "right": 250.88,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "o",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 232.27,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(29)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 250.88,
+          "top": 280.5,
+          "right": 269.48,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 250.88,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(30)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 269.48,
+          "top": 280.5,
+          "right": 288.09,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 269.48,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(31)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 288.09,
+          "top": 280.5,
+          "right": 306.7,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "t",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 288.09,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(33)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 325.31,
+          "top": 280.5,
+          "right": 343.92,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "=",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 325.31,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(35)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 362.53,
+          "top": 280.5,
+          "right": 381.14,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "0",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 362.53,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(36)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 381.14,
+          "top": 280.5,
+          "right": 399.75,
+          "bottom": 321.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": ";",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 381.14,
+          "y": 280.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(40)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 139.22,
+          "top": 327,
+          "right": 157.83,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "f",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 139.22,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(41)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 157.83,
+          "top": 327,
+          "right": 176.44,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 157.83,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(42)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 176.44,
+          "top": 327,
+          "right": 195.05,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 176.44,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(44)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 213.66,
+          "top": 327,
+          "right": 232.27,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "i",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 213.66,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(45)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 232.27,
+          "top": 327,
+          "right": 250.88,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 232.27,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(46)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 250.88,
+          "top": 327,
+          "right": 269.48,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "c",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 250.88,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(47)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 269.48,
+          "top": 327,
+          "right": 288.09,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "r",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 269.48,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(48)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 288.09,
+          "top": 327,
+          "right": 306.7,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "e",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 288.09,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(49)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 306.7,
+          "top": 327,
+          "right": 325.31,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "m",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 306.7,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(50)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 325.31,
+          "top": 327,
+          "right": 343.92,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "e",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 325.31,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(51)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 343.92,
+          "top": 327,
+          "right": 362.53,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 343.92,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(52)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 362.53,
+          "top": 327,
+          "right": 381.14,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "t",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 362.53,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(53)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 381.14,
+          "top": 327,
+          "right": 399.75,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "(",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 381.14,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(54)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 399.75,
+          "top": 327,
+          "right": 418.36,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": ")",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 399.75,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(56)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 436.97,
+          "top": 327,
+          "right": 455.58,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "{",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 436.97,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(58)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 474.19,
+          "top": 327,
+          "right": 492.8,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "c",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 474.19,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(59)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 492.8,
+          "top": 327,
+          "right": 511.41,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "o",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 492.8,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(60)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 511.41,
+          "top": 327,
+          "right": 530.02,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 511.41,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(61)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 530.02,
+          "top": 327,
+          "right": 548.63,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 530.02,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(62)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 548.63,
+          "top": 327,
+          "right": 567.23,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "t",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 548.63,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(64)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 585.84,
+          "top": 327,
+          "right": 604.45,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "=",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 585.84,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(66)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 623.06,
+          "top": 327,
+          "right": 641.67,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "c",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 623.06,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(67)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 641.67,
+          "top": 327,
+          "right": 660.28,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "o",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 641.67,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(68)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 660.28,
+          "top": 327,
+          "right": 678.89,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 660.28,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(69)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 678.89,
+          "top": 327,
+          "right": 697.5,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 678.89,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(70)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 697.5,
+          "top": 327,
+          "right": 716.11,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "t",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 697.5,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(72)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 734.72,
+          "top": 327,
+          "right": 753.33,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "+",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 734.72,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(74)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 771.94,
+          "top": 327,
+          "right": 790.55,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "1",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 771.94,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(75)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 790.55,
+          "top": 327,
+          "right": 809.16,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": ";",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 790.55,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(77)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 827.77,
+          "top": 327,
+          "right": 846.38,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "r",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 827.77,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(78)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 846.38,
+          "top": 327,
+          "right": 864.98,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "e",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 846.38,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(79)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 864.98,
+          "top": 327,
+          "right": 883.59,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "t",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 864.98,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(80)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 883.59,
+          "top": 327,
+          "right": 902.2,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 883.59,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(81)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 902.2,
+          "top": 327,
+          "right": 920.81,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "r",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 902.2,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(82)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 920.81,
+          "top": 327,
+          "right": 939.42,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 920.81,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(84)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 958.03,
+          "top": 327,
+          "right": 976.64,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "c",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 958.03,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(85)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 976.64,
+          "top": 327,
+          "right": 995.25,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "o",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 976.64,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(86)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 995.25,
+          "top": 327,
+          "right": 1013.86,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 995.25,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(87)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1013.86,
+          "top": 327,
+          "right": 1032.47,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "n",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1013.86,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(88)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1032.47,
+          "top": 327,
+          "right": 1051.08,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "t",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1032.47,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(89)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1051.08,
+          "top": 327,
+          "right": 1069.69,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": ";",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1051.08,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(91)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1088.3,
+          "top": 327,
+          "right": 1106.91,
+          "bottom": 368,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "}",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1088.3,
+          "y": 327,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(95)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 139.22,
+          "top": 373.5,
+          "right": 157.83,
+          "bottom": 414.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "r",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 139.22,
+          "y": 373.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(96)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 157.83,
+          "top": 373.5,
+          "right": 176.44,
+          "bottom": 414.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "e",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 157.83,
+          "y": 373.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(97)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 176.44,
+          "top": 373.5,
+          "right": 195.05,
+          "bottom": 414.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "t",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 176.44,
+          "y": 373.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.178,
+        "selector": "#codepre > span:nth-of-type(98)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 195.05,
+          "top": 373.5,
+          "right": 213.66,
+          "bottom": 414.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "containerSelector": "#trace",
+        "text": "u",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 195.05,
+          "y": 373.5,
+          "width": 18.61,
+          "height": 41
+        },
+        "firstSeen": 14.178,
+        "lastSeen": 14.178,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.178
+        ]
+      }
+    ],
+    "duration": 23.2,
+    "samples": [
+      1.289,
+      3.867,
+      6.444,
+      9.022,
+      11.6,
+      14.178,
+      16.756,
+      19.333,
+      21.911
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 195,
+    "truncated": true
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.289,
+      6.444,
+      11.6,
+      16.756,
+      21.911
+    ],
+    "checked": 203,
+    "passed": 203
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

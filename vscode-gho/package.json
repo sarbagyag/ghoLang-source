@@ -1,0 +1,29 @@
+{
+  "name": "gholang",
+  "displayName": "ghoLang",
+  "description": "Syntax highlighting and editor support for ghoLang (.gho)",
+  "version": "0.1.0",
+  "publisher": "sarbagya",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "gholang",
+        "aliases": ["ghoLang", "gho"],
+        "extensions": [".gho"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gholang",
+        "scopeName": "source.gho",
+        "path": "./syntaxes/gholang.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      { "language": "gholang", "path": "./snippets.json" }
+    ]
+  }
+}

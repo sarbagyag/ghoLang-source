@@ -1,0 +1,8 @@
+{
+  "function": { "prefix": "fun", "body": ["fun ${1:name}(${2:params}) {", "\t$0", "}"], "description": "Function declaration" },
+  "if": { "prefix": "if", "body": ["if (${1:condition}) {", "\t$0", "}"], "description": "If statement" },
+  "ifelse": { "prefix": "ifelse", "body": ["if (${1:condition}) {", "\t$2", "} else {", "\t$0", "}"], "description": "If/else" },
+  "for": { "prefix": "for", "body": ["for (var ${1:i} = 0; ${1:i} < ${2:n}; ${1:i} = ${1:i} + 1) {", "\t$0", "}"], "description": "For loop" },
+  "while": { "prefix": "while", "body": ["while (${1:condition}) {", "\t$0", "}"], "description": "While loop" },
+  "print": { "prefix": "print", "body": ["print ${1:value};"], "description": "Print statement" }
+}
