@@ -1,1 +1,0 @@
-Nobody asked for another programming language, so I wrote one anyway: ghoLang, a bytecode VM in C99 with closures, a garbage collector, and a VS Code extension. It takes out its own garbage.

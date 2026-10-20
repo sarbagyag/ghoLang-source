@@ -11,3 +11,6 @@
 # Hyperframes (brag video) generated state
 .hyperframes/
 node_modules/
+
+# brag launch videos
+brag-output*/
